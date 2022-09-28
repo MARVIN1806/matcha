@@ -20,17 +20,91 @@
             color: #fff;
             background-color: #025157;
         }
+        .header >*{
+            display: inline-block;
+            font-size: 16px;
+            vertical-align: middle;
+            height: 100%;
+            line-height: 45%;
+            font: sans-serif;
+
+            
+        }
+       header{
+       
+         
+            margin: 40px 20px 0px;
+            font-size: 0px;
+        }
+        li{
+            display: inline;
+            padding: 25px;
+            color: #025157;
+            
+        }
+        .logo {
+            width: 15%;
+        }
+        .logo > img{
+            width: 50%;
+        }
+        .navbar {
+            width: 70%;
+            text-align: center;
+            font-weight: 500;
+        }
+        .action {
+            width: 15%;
+            text-align: right;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .main{
+            margin-top: 100px;
+            text-align: center;
+        }
+        .loguin{
+            color: #67b54b
+        }
+        .botonstar{
+            background-color: #67b54b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding:12px 14px;
+        }
        </style>
     </head>
     <body>
+
+
+        <header class="header">
+           
+            <a href="index.html" class="logo" ><img src=" https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png " alt="Matcha" /></a>
+            <nav class="navbar">
+            <ul>
+                <li>Platform</li>
+                <li>Pricing</li>
+                <li>Customers</li>
+                <li>Resources</li>
+                <li>About</li>
+            </ul>
+            </nav>
+            <div class="action">
+                <a class="loguin">Sign in</a>
+                <button type="button" class="botonstar">Star Free Trial</button>
+            </div>
+        </header>
+
+        <section class="main">
         <!--   aqui va el contenido de mi sitio-->
-        <h1>Build your blog. Build your business. lesly</h1>
-        <p class="dbtitle">Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.
+        <h1>Build your blog. Build your business.</h1>
+        <p class="dbt itle">Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.
         </p>
 
         <form>
             <input type="email"  id="email" name="email" placeholder="Enter email addres">
-            <button type="button">Try it now &rarr;</button>
+            <button type="button" >Try it now &rarr;</button>
         </form>
 
 
@@ -42,6 +116,7 @@
             </p>
         </center>
         <img src="0x0.png" alt="capterra">
+    </section>
     </body>
     <footer>
 
