@@ -25,8 +25,14 @@ button {
 }
 header{
        
-    margin: 40px 20px 0px;
+    margin: 0px 0px 40px;
     font-size: 0px;
+    position: fixed;
+    top:0;
+    padding: 0px 20px;
+    box-shadow: 0px 16px rgba(0,0,0,0.5);
+    background-color: #fffbf7;
+    
 }
 li{
     display: inline;
@@ -68,4 +74,28 @@ li{
     border: none;
     border-radius: 5px;
     padding:12px 14px;
+}
+
+.publish{
+    display: flex;
+    flex-direction: column;
+
+}
+.publish form{
+    display: flex;
+}
+
+.videoimagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.container{
+    display: flex;/*es importante para generar objetos en linea*/
+    flex-direction: row;/*con este definimos la orientacion que queremos que se vean las cajas*/
+    justify-content: center;/*el ordenamiento de las cajas*/
+    align-content: space-between;/*define el ordenamiento de las lineas */
+    gap: 25px;/*es un espacioado entre las cajas */
+
 }
