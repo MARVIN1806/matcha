@@ -99,7 +99,12 @@ li{
     gap: 25px;/*es un espacioado entre las cajas */
 
 }
-
+button:active{
+    background-color:green ;
+}
+#email:hover{
+    background-color: aqua;
+}
 .feautures{
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
@@ -108,11 +113,45 @@ li{
     /* grid-template-columns: 50opx 1fr; */
     /* grid-template-columns: repeat(3,1fr); */
    /* grid-template-columns: repeat(2,1fr);*/
-   
     /* grid-template-columns: repeat(auto-fill,40px);
     grid-template-rows: repeat(2,1fr) ; */
-    /* grid-template: repeat(2,1fr) / repeat(2,1fr); */
-    grid-template: repeat(auto-fill,200px)/repeat(auto-fill,200px);
+    grid-template: repeat(2,1fr) / repeat(2,1fr); 
+    /* grid-template: repeat(auto-fill,200px)/repeat(auto-fill,200px); */
     grid-row-gap: 20px;
+    background-color: #025157;  
+}
+.flexizquierda a{
+    color: #67b54b;
+    text-decoration: none;
+}
+.flexizquierda h3{
+    color: #343434;
+    font-weight: 400;
+    font-size: 24px;
+}
+.flexizquierda img{
+    margin-left: 2%;
+    
+}
+.grid_completo  img{
+    margin-right: 10px;
+}
+.grid_completo{
+    display: grid;
+    /* grid-template-columns: repeat(2,50%); */
+    grid-template-columns: 1fr 80px;
+    background-color: #fff;
+    margin: 20px 30px;
+    border-radius: 10px;
+
+}
+.flexizquierda{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.flexderecha{
+    display: flex;
+    flex-direction: row-reverse;
     
 }
