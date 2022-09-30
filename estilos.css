@@ -99,3 +99,20 @@ li{
     gap: 25px;/*es un espacioado entre las cajas */
 
 }
+
+.feautures{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-columns: repeat(2,300px); */
+    /* grid-template-columns: repeat(2,50%); */
+    /* grid-template-columns: 50opx 1fr; */
+    /* grid-template-columns: repeat(3,1fr); */
+   /* grid-template-columns: repeat(2,1fr);*/
+   
+    /* grid-template-columns: repeat(auto-fill,40px);
+    grid-template-rows: repeat(2,1fr) ; */
+    /* grid-template: repeat(2,1fr) / repeat(2,1fr); */
+    grid-template: repeat(auto-fill,200px)/repeat(auto-fill,200px);
+    grid-row-gap: 20px;
+    
+}
