@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+/* para exportar un tipo de letra  */
 h1 {
     color: #025157;
     float: inline-start;
+    font-size: 45px;
+}
+h1,h2,h3,h4 {
+ font-family: 'Alegreya', serif;/* nombrar el tipo de litra en lista dependiendo la que encuentre*/
 }
 .txtpromo{
     color:#8b8b8bcc;
@@ -11,6 +17,7 @@ h1 {
 body {
     background-color: #fffbf7;
 }
+
 button {
     color: #fff;
     background-color: #025157;
@@ -62,7 +69,7 @@ li{
    
 }
 .main{
-    margin-top: 100px;
+    margin-top: 140px;
     text-align: center;
 }
 .loguin{
@@ -198,4 +205,89 @@ button:active{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 70px;
     gap: 40px;
+}
+
+
+
+@media (max-width:575px){
+   .navbar , .action {
+    display: none;
+   }
+    
+    h1 {
+        font-size: 30px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+
+    .main {
+        margin-top: 80px;
+    }
+    .main img{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+        
+    }
+    .videoimagen video{
+        width: 100%;
+    }
+    .videoimagen, .publish{
+        width: 90%;
+    }
+    .publish p{  
+        /* publish > p es para solamente los hijos directos al
+        utilizar el simbolo limita solo a la que sean 
+        exclusivamente hijos y la otra opcion es para cuando quieres que afecte
+        todos los elementos p dentor de la classe publish no importando
+        si estan dentro de otras calase hijas de publish*/
+        line-height: 24px;
+    }
+    .publish form{
+        flex-direction: column;
+    }
+   
+    .publish-actions{
+        display: grid;
+        grid-template-columns: 1fr 120px;
+    }
+
+    .feautures{
+        margin-top: 30px;
+        grid-template-columns: 1fr;
+
+        /* grid-template: repeat(4,1fr) / 1fr */
+        
+    }
+    .flexderecha {
+        display: none;
+    }
+    .grid_completo{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media ((min-width: 576px) AND (max-width: 767px)){
+   
+}
+
+@media ((min-width: 768px) AND (max-width: 991px)){
+    
+}
+
+@media ((min-width: 992px) AND (max-width: 1199px)){
+   
+}
+
+@media (min-width: 1200px){
+    
 }
