@@ -155,3 +155,47 @@ button:active{
     flex-direction: row-reverse;
     
 }
+
+
+/* codigo de postwork*/
+.titulo_flex{
+    width: 50%;
+    font-size: 18px;
+    color: #46484c;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.flex_columna button{
+    font-size: 14px;
+    border-radius: 12px;
+    height: 45px;
+}
+.flex_columna{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    
+}
+.flex_columna p a{
+    color: #67b54b;
+}
+.listamensajes{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    background-color: #fffbf7;
+    padding: 5% 10%;
+}
+.recuadro{
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #46484c;
+    margin: 0px 20px;
+}
+.lista_{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 70px;
+    gap: 40px;
+}
