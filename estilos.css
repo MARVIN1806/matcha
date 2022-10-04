@@ -213,9 +213,7 @@ button:active{
 
 
 @media (max-width:575px){
-   .navbar , .action {
-    display: none;
-   }
+   
     
     h1 {
         font-size: 30px;
