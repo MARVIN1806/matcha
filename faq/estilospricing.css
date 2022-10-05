@@ -1,0 +1,21 @@
+
+
+
+
+.accordion-button {
+    color:  #025157;
+    font-size: 24px;
+    font-weight: 600;
+    border: 0px;
+}
+
+button.accordion-button::after {
+    width: 0px;
+}
+
+.accordion-button:not(.collapsed){
+    color: #025157;
+    background-color: white;
+    border-color: white;
+}
+

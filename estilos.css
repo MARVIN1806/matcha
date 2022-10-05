@@ -325,6 +325,23 @@ button:active{
 
 
 
+
+/* codigo para ejemplificar grid*/
+.container2 {
+    display: grid;
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3,auto);
+}
+
+.container2 *{
+    width: 100px;
+    height: 100px;
+}
+
+
 @media (max-width:575px){
    
     
